@@ -1,0 +1,13 @@
+prefix=/Users/shantanukumar/Documents/ml-practicalproject/venv
+exec_prefix=/Users/shantanukumar/Documents/ml-practicalproject/venv
+libdir=/Users/shantanukumar/Documents/ml-practicalproject/venv/lib
+sharedlibdir=/Users/shantanukumar/Documents/ml-practicalproject/venv/lib
+includedir=/Users/shantanukumar/Documents/ml-practicalproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
